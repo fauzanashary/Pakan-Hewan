@@ -4,7 +4,7 @@
 
 // WiFi Access Point
 const char *ssid = "PakanKucing_AP";
-const char *password = "12345678";
+const char *password = "12345678"; 
 
 ESP8266WebServer server(80);
 Servo myServo;
