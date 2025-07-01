@@ -3,7 +3,7 @@
 
 Proyek pakan kucing otomatis berbasis IoT menggunakan ESP8266, sensor ultrasonik, dan motor servo. Alat ini secara cerdas mendeteksi level pakan dalam mangkuk dan mengisinya kembali secara otomatis. Dilengkapi dengan antarmuka web untuk pemantauan *real-time* melalui Access Point WiFi sendiri.
 
-![Gambar Proyek Anda Disini](https://via.placeholder.com/600x400.png?text=Letakkan+Foto+Proyek+Anda+di+Sini)
+![Gambar Proyek Anda Disini](https://github.com/fauzanashary/Pakan-Hewan/blob/70aa60ebc03a5baea0515cb866ee4168685c0562/3D%20Model%20Pakan%20Hewan.png)
 *(Contoh gambar: Tampilan alat yang sudah jadi)*
 
 ## ✨ Fitur Utama
