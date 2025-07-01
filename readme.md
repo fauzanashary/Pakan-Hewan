@@ -35,6 +35,12 @@ Hubungkan semua komponen sesuai dengan tabel di bawah ini:
 | **VCC (Servo & Sensor)** | `Vin / 5V` |
 | **GND (Servo & Sensor)** | `GND` |
 
+## 🔌 Skema Rangkaian (Fritzing)
+
+
+![Gambar Proyek Anda Disini](https://github.com/fauzanashary/Pakan-Hewan/blob/485bde3f74589bdee1f42873debd1a386ce3bf34/skema%20pakan%20hewan.png)
+
+
 *Catatan: Jika mengalami masalah saat boot, coba pindahkan pin Servo dari `D3` (GPIO 0) ke pin lain seperti `D5` (GPIO 14) dan perbarui `#define SERVO_PIN` di dalam kode.*
 
 ## 🚀 Instalasi dan Cara Penggunaan
