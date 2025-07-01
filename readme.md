@@ -1,7 +1,7 @@
-# Pakan Kucing Otomatis dengan ESP8266
+# Pakan Hewan Otomatis dengan ESP8266
 
 
-Proyek pakan kucing otomatis berbasis IoT menggunakan ESP8266, sensor ultrasonik, dan motor servo. Alat ini secara cerdas mendeteksi level pakan dalam mangkuk dan mengisinya kembali secara otomatis. Dilengkapi dengan antarmuka web untuk pemantauan *real-time* melalui Access Point WiFi sendiri.
+Proyek pakan hewan otomatis berbasis IoT menggunakan ESP8266, sensor ultrasonik, dan motor servo. Alat ini secara cerdas mendeteksi level pakan dalam mangkuk dan mengisinya kembali secara otomatis. Dilengkapi dengan antarmuka web untuk pemantauan *real-time* melalui Access Point WiFi sendiri.
 
 ![Gambar Proyek Anda Disini](https://github.com/fauzanashary/Pakan-Hewan/blob/70aa60ebc03a5baea0515cb866ee4168685c0562/3D%20Model%20Pakan%20Hewan.png)
 *(Contoh gambar: Tampilan alat yang sudah jadi)*
@@ -66,7 +66,7 @@ Hubungkan semua komponen sesuai dengan tabel di bawah ini:
     - Buka file kode `.ino`. Anda dapat menyesuaikan parameter berikut sesuai kebutuhan:
     ```cpp
     // WiFi Access Point
-    const char *ssid = "PakanKucing_AP";
+    const char *ssid = "Pakanhewan_AP";
     const char *password = "12345678"; 
     
     // Batas ketinggian pakan (dalam cm)
@@ -85,7 +85,7 @@ Hubungkan semua komponen sesuai dengan tabel di bawah ini:
 
 6.  **Jalankan Alat**
     - Setelah proses upload selesai, nyalakan perangkat Anda.
-    - Ambil smartphone atau laptop, cari jaringan WiFi bernama **"PakanKucing_AP"**.
+    - Ambil smartphone atau laptop, cari jaringan WiFi bernama **"Pakanhewan_AP"**.
     - Hubungkan ke jaringan tersebut dengan kata sandi **"12345678"**.
     - Buka browser dan kunjungi alamat `http://192.168.4.1`.
     - Anda akan melihat halaman monitoring yang menampilkan jarak pakan dan status dispenser. Halaman ini akan me-refresh secara otomatis.
